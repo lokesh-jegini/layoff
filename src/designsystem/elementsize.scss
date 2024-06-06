@@ -1,0 +1,60 @@
+// elemnts are the child -->we always give height for the output elements
+
+// butoon,img,text
+
+$icon-size:8px;
+$icon-size-small:2*$icon-size;
+$icon-size-medium:3*$icon-size;
+$icon-size-large:4*$icon-size;
+
+//button size
+// 3,4,5 (2,4,6) (height is fixed )width is vary based on the contnet 8,12,16(padding)
+
+$small-button-height:32px;
+$medium-button-height:44px;
+$large-button-height:56px;
+
+// container width or element width
+$width-100:100%;
+$width-90:90%;
+$width-75:75%;
+$width-50:50%;
+$width-25:25%;
+
+$height-5: 5vh;
+$height-10: 10vh;
+$height-15: 15vh;
+$height-20: 20vh;
+$height-25: 25vh;
+$height-30: 30vh;
+$height-35: 35vh;
+$height-40: 40vh;
+$height-45: 45vh;
+$height-50: 50vh;
+$height-55: 55vh;
+$height-60: 60vh;
+$height-65: 65vh;
+$height-70: 70vh;
+$height-75: 75vh;
+$height-80: 80vh;
+$height-85: 85vh;
+$height-90: 90vh;
+$height-95: 95vh;
+$height-100: 100vh;
+
+//where we define width and height for element
+
+// 1)only width we are given for the partition
+// 2)if the blue color reach the contnet then it will start break into new line on that time height of the elment increse vertically
+// 3)for lock the bluecolor are we will give width and height for the element 
+// 4)note:overflow scroll (when the height and width is lock for the element on that time if we give more contnet then it will start overflow from the blue color area)
+//  and the content overlap with the other contnet or container.
+//  5)when we lock the element width and height to overcome the overlap of content we will give overflow scroll 
+
+// ------------------
+// when the element will get dynamic inform from db to render card list
+// or the text dynamic text present to take comment type text from user we will give will give both wisth and height
+
+// if it is static text we will not give width and and height it will take auto width and hegiht
+
+// ----------------------for display flex inbuild value are present-----------
