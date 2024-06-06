@@ -1,0 +1,53 @@
+
+
+-------------topic-1 start---------this are main points for the design system--------
+Css values will vary properties are constant 
+In css for every design css property names are constant 
+
+But css property values will change page to page or project to project 
+
+First we need to create design system 
+1)fonts
+2)bg colour 
+3) text color 
+4) space between elements
+5) width and height of elements 
+6) responsive break point 
+7) animations 
+8) reset default property values for the element 
+
+
+
+------tag,id,or classname
+We are going to apply the property and values to the element in a block format 
+
+With the help of tag,id,or classname
+
+Sector{
+Color:red
+}
+
+--------variables----property values 
+
+we can pass values in two formats 
+
+1)static --Color:red
+2)dynamic through variable --Color:$textcolor
+
+----------------------------topic-2 end---------------
+
+-----------topic-2 start--------------
+resposive media quries breakpoints based on the bootstrap
+----------------------------------------------------------
+1)0-576
+2)576 768
+3)768 992
+4)992 1200
+5)1200 14000
+6)14000 ------current we develop for extra extralarge for default screen
+
+-----------topic-2 end-----------
+
+--------------topic-3 start--------------
+--------------topic-3 end--------------
+
