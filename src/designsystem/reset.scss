@@ -1,0 +1,31 @@
+// boxmodel reset
+// note:when we are going to reset the property values we are targetting only tag names see below (tagname-boxmodel default styles)
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px;
+    outline: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+   padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+:focus,
+:focus-visible,
+:focus-within{
+    outline: 0px;
+    border: 0px;
+    box-shadow: none !important ;
+}

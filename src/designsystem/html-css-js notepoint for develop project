@@ -49,5 +49,10 @@ resposive media quries breakpoints based on the bootstrap
 -----------topic-2 end-----------
 
 --------------topic-3 start--------------
+// boxmodel reset
+// note:when we are going to reset the property values we are targetting only tag names see below (tagname-boxmodel default styles)
 --------------topic-3 end--------------
+
+------topic-4 start----
+-----topic-4 end------
 
